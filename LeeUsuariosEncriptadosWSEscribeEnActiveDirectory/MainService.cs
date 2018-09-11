@@ -10,19 +10,21 @@ using System.Threading.Tasks;
 
 namespace LeeUsuariosEncriptadosWSEscribeEnActiveDirectory
 {
-    public partial class Service1 : ServiceBase
+    partial class MainService : ServiceBase
     {
-        public Service1()
+        public MainService()
         {
             InitializeComponent();
         }
 
         protected override void OnStart(string[] args)
         {
+            // TODO: agregar código aquí para iniciar el servicio.
         }
 
         protected override void OnStop()
         {
+            // TODO: agregar código aquí para realizar cualquier anulación necesaria para detener el servicio.
         }
     }
 }

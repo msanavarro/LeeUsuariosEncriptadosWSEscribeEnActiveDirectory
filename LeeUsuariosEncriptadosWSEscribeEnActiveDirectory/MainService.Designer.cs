@@ -1,6 +1,6 @@
 ﻿namespace LeeUsuariosEncriptadosWSEscribeEnActiveDirectory
 {
-    partial class Service1
+    partial class MainService
     {
         /// <summary> 
         /// Variable del diseñador necesaria.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            this.ServiceName = "Service1";
+            this.ServiceName = "MainService";
         }
 
         #endregion

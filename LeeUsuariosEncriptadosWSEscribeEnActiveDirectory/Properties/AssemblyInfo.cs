@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
 [assembly: AssemblyTitle("LeeUsuariosEncriptadosWSEscribeEnActiveDirectory")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Lee usuarios encriptados (AES 256) de un servicio web (REST) y los da de alta en un dominio de un directorio activo.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("ISAT Telecomunicaciones")]
 [assembly: AssemblyProduct("LeeUsuariosEncriptadosWSEscribeEnActiveDirectory")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
@@ -34,3 +34,5 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+
+[assembly: log4net.Config.XmlConfigurator(ConfigFile = "log4net.config", Watch = true)]

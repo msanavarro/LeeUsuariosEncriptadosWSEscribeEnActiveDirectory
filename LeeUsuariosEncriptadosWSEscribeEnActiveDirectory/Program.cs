@@ -10,7 +10,8 @@ namespace LeeUsuariosEncriptadosWSEscribeEnActiveDirectory
     static class Program
     {
         /// <summary>
-        /// Punto de entrada principal para la aplicación.
+        /// Servicio de Windows que lee unusarios encriptados de un servicio web, los desencripta y los da
+        /// de alta en un dominio de un directorio activo.
         /// </summary>
         static void Main()
         {
